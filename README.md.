@@ -1,0 +1,23 @@
+# 🌟 Modern Glassmorphism Portfolio
+
+Welcome to my professional portfolio! This website showcases my skills as a Front-End Developer, featuring a clean, modern UI with a focus on Glassmorphism and responsive design.
+
+## 🚀 Live Demo
+[View Live Site](INSERT_YOUR_GITHUB_PAGES_URL_HERE)
+
+## 🛠️ Built With
+- **HTML5**: Semantic structure.
+- **CSS3**: Custom variables, Grid/Flexbox, and animations.
+- **JavaScript**: Theme switching logic and scroll-reveal effects.
+- **FontAwesome**: High-quality icons.
+
+## ✨ Key Features
+- **Glassmorphism UI**: High-end frosted glass aesthetic.
+- **Dark/Light Mode**: Smooth transition between themes.
+- **Responsive Design**: Optimized for mobile, tablet, and desktop.
+- **Scroll Animations**: Dynamic "reveal" effects as you browse.
+
+## 📁 Project Structure
+- `index.html`: The skeleton and content.
+- `style.css`: The "Deep Space" theme and custom animations.
+- `script.js`: Theme toggle and intersection observer logic.
