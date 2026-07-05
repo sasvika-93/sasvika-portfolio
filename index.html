@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="dark">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Sasvika - Professional Front-End Developer Portfolio">
+    <title>Sasvika | Front-End Developer</title>
+    
+    <!-- Fonts & Icons -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;600;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Background Blobs (Unique Background) -->
+    <div class="blob blob-1"></div>
+    <div class="blob blob-2"></div>
+
+    <!-- Navigation -->
+    <header class="navbar" id="header">
+        <div class="container nav-container">
+            <a href="#" class="logo" aria-label="Sasvika Home">Sasvika<span>.</span></a>
+            <nav id="nav-menu">
+                <ul class="nav-links">
+                    <li><a href="#home" class="nav-link active">Home</a></li>
+                    <li><a href="#about" class="nav-link">About</a></li>
+                    <li><a href="#skills" class="nav-link">Skills</a></li>
+                    <li><a href="#projects" class="nav-link">Projects</a></li>
+                    <li><a href="#contact" class="nav-link">Contact</a></li>
+                </ul>
+            </nav>
+            <div class="nav-actions">
+                <button id="theme-toggle" class="icon-btn" aria-label="Toggle Theme">
+                    <i class="fas fa-moon"></i>
+                </button>
+                <button class="hamburger" aria-label="Open Menu">
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                </button>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <!-- Hero Section -->
+        <section id="home" class="hero">
+            <div class="container hero-grid">
+                <div class="hero-text reveal">
+                    <span class="badge">Available for Projects</span>
+                    <h1>Creative <span class="gradient-text">Front-End</span> Developer</h1>
+                    <p>I am Sasvika. I build responsive, user-friendly, and modern web interfaces using the latest web technologies.</p>
+                    <div class="hero-cta">
+                        <a href="#projects" class="btn btn-primary">View Projects</a>
+                        <a href="#contact" class="btn btn-secondary">Contact Me</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- About Section -->
+        <section id="about" class="section">
+            <div class="container">
+                <div class="glass-card reveal">
+                    <h2 class="section-title">About Me</h2>
+                    <p>I am a passionate developer who enjoys learning how to build modern web applications. I love turning complex designs into simple, clean code. My goal is to create web experiences that are not only beautiful but also fast and accessible to everyone.</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Skills Section -->
+        <section id="skills" class="section">
+            <div class="container">
+                <h2 class="section-title text-center reveal">My Skills</h2>
+                <div class="skills-grid reveal">
+                    <div class="skill-card glass-card" aria-label="HTML5 Skill"><i class="fab fa-html5"></i><span>HTML5</span></div>
+                    <div class="skill-card glass-card" aria-label="CSS3 Skill"><i class="fab fa-css3-alt"></i><span>CSS3</span></div>
+                    <div class="skill-card glass-card" aria-label="JavaScript Skill"><i class="fab fa-js"></i><span>JavaScript</span></div>
+                    <div class="skill-card glass-card" aria-label="Responsive Design Skill"><i class="fas fa-mobile-alt"></i><span>Responsive</span></div>
+                    <div class="skill-card glass-card" aria-label="Git and GitHub Skill"><i class="fab fa-git-alt"></i><span>Git & GitHub</span></div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Projects Section -->
+        <section id="projects" class="section">
+            <div class="container">
+                <h2 class="section-title text-center reveal">Featured Projects</h2>
+                <div class="project-grid">
+                    <article class="project-card glass-card reveal">
+                        <div class="project-img p1"></div>
+                        <h3>Portfolio Website</h3>
+                        <p>A modern portfolio with glassmorphism UI and dark mode logic.</p>
+                        <div class="project-links">
+                            <a href="#" aria-label="Github Code"><i class="fab fa-github"></i></a>
+                            <a href="#" aria-label="Live Demo"><i class="fas fa-external-link-alt"></i></a>
+                        </div>
+                    </article>
+                    <article class="project-card glass-card reveal">
+                        <div class="project-img p2"></div>
+                        <h3>Weather App</h3>
+                        <p>A real-time weather application using OpenWeather API.</p>
+                        <div class="project-links">
+                            <a href="#" aria-label="Github Code"><i class="fab fa-github"></i></a>
+                            <a href="#" aria-label="Live Demo"><i class="fas fa-external-link-alt"></i></a>
+                        </div>
+                    </article>
+                    <article class="project-card glass-card reveal">
+                        <div class="project-img p3"></div>
+                        <h3>To-Do List App</h3>
+                        <p>A productivity tool with LocalStorage data persistence.</p>
+                        <div class="project-links">
+                            <a href="#" aria-label="Github Code"><i class="fab fa-github"></i></a>
+                            <a href="#" aria-label="Live Demo"><i class="fas fa-external-link-alt"></i></a>
+                        </div>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section id="contact" class="section">
+            <div class="container">
+                <div class="contact-card glass-card reveal">
+                    <h2 class="section-title">Get In Touch</h2>
+                    <form id="contact-form">
+                        <div class="input-group">
+                            <input type="text" id="name" placeholder="Your Name" required aria-required="true">
+                        </div>
+                        <div class="input-group">
+                            <input type="email" id="email" placeholder="Your Email" required aria-required="true">
+                        </div>
+                        <div class="input-group">
+                            <textarea id="message" rows="5" placeholder="Your Message" required aria-required="true"></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary w-100">Send Message</button>
+                    </form>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-flex">
+                <p>&copy; 2026 Sasvika. All Rights Reserved.</p>
+                <div class="socials">
+                    <a href="#" aria-label="GitHub Profile"><i class="fab fa-github"></i></a>
+                    <a href="#" aria-label="LinkedIn Profile"><i class="fab fa-linkedin"></i></a>
+                    <a href="#" aria-label="Send Email"><i class="fas fa-envelope"></i></a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <button id="back-to-top" aria-label="Go to Top"><i class="fas fa-arrow-up"></i></button>
+
+    <script src="script.js"></script>
+</body>
+</html>
